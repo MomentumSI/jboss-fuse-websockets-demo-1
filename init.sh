@@ -1,8 +1,10 @@
 #!/bin/sh 
 DEMO="JBoss Fuse Websocket Demo"
 VERSION=6.0.0
-FUSE=jboss-fuse-6.0
-FUSE_BIN=jboss-fuse-6.0.0.GA.zip
+# The following two lines will need to be updated if the version of jboss-fuse 
+# is later than -024.
+FUSE=jboss-fuse-6.0.0.redhat-024
+FUSE_BIN=jboss-fuse-6.0.0.redhat-024.zip
 DEMO_HOME=./target
 FUSE_HOME=$DEMO_HOME/$FUSE
 SERVER_CONF=$FUSE_HOME/etc
